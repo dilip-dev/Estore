@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    z-index: auto;
+}
+
+a:hover {
+    text-decoration: wavy;
+    
+}
+
+ul,
+li {
+    list-style: none;
+    
+}
+
+.body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: lightblue !important;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.logo
+{
+    height: 55px;
+    width: 70px;
+}
+
+
+/*.................head_two.................*/
+
+#head_two{
+    padding: 0 0;
+    border-bottom: 2px solid #b9b5b5;
+    background: #ccc;
+}
+
+.form-inline .form-control{
+    width: 500px!important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 17px;
+}
+
+.navbar-nav{
+    margin-right: 0px;
+
+}
+.card-header
+{
+    margin-top: 20px;
+}
+.list-group, .card-header
+{
+    border: 2px solid #b9b5b5;   
+    width: 60% !important;
+}
+.navbar-nav .nav-item a i:hover{
+   background-color:  #e0acac;
+    transition: .6s;
+}
+
+
+/*banner part css start here*/
+#banner{
+/*    background-color: aqua;*/
+/*background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);*/
+
+    
+    background-color: #fff;
+
+}
+.banner_main{
+    margin-left: 65px;
+}
+.con_f{
+    margin-left: 80px;
+}
+.menu_head {
+    margin-top: 20px;
+}
+.menu_head h6 a{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+    font-weight: 550;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.menu_banner{
+    border: 2px solid rgb(241, 227, 227);
+    padding: 0px 0px;
+    margin-top: 13px;
+    margin-right: 250px;
+}
+.menu_banner ul  {
+    margin-top: 5px;
+    margin-left: 4px;
+    padding: 0 9px;
+    margin-bottom: 20px;
+}
+.menu_banner ul li a{
+    font-size: 14px;
+    color: black;
+    text-transform: capitalize;
+    padding: 15px;
+    
+}
+.menu_banner li a:hover{
+    background-color: blue;
+    color: yellow;
+}
+.menu_head_second{
+    margin-top: 7px;
+    margin-right: -5px;
+    border: 2px solid black;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.menu_head_second h4{
+    
+    font-size: 25px;
+    text-transform: capitalize;
+    color: black;
+   text-align: center;
+}
+
+/*card part css start here*/
+.card-out{
+    margin: 10px 5px;
+}
+
+
+.card_left{
+    margin-left: -30px;
+}
+
+.card-my{
+    padding: 5px;
+    margin: 10px -20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+.card_img img{
+    height: 210px;
+    width: 168px;
+}
+.card_con{
+    text-align: center;
+    margin-top: 5px;
+   
+}
+.card_con p {
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+     padding: 0 10px;
+       margin-bottom: 0px;
+}
+.card_con a{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+
+}
+.card_con p a{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: line-through;
+}
+
+.card-my:hover{
+    box-shadow: 10px 10px 5px grey;
+    transition: .6s;
+}
+/*footer part css start here*/
+
+
+footer{
+    padding: 30px 30px;
+    background-color:#242d37;
+    color: #ccc;
+
+}
+.footer_con{
+    margin-left: 78px;
+
+}
+
+.footer_con h5{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+}
+
+.footer_service ul li{
+    margin-top: 5px;
+    
+}
+.footer_service ul li a{
+    font-size: 17px;
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    
+}
+
+.footer_sec_con {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer_sec_con h5{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+.footer_sec_con h5:before{
+      position: absolute;
+    width: 440px;
+    height: 5px;
+    bottom: 13px;
+    left: -3%;
+    content: '';
+    background-color: #fff;
+}
+.footer_sec_con h5:after{
+        position: absolute;
+    width: 440px;
+    height: 5px;
+    bottom: 13px;
+    left: 63%;
+    content: '';
+  
+    background-color: #fff;
+}
+
+.foot_row{
+       height: 5px;
+    width: 1177px;
+    background-color: white;
+    margin-left: -31px;
+}
+.footer_con_downloade{
+    margin-top: 30px;
+    margin-left: 93px;
+}
+.footer_con_downloade h5{
+        font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+    margin-right: 20px;
+}
+.footer_con_downloade ul{
+    float: right;
+}
+.footer_con_downloade ul li{
+    float: left;
+}
+.icons{
+    margin-top: -3px;
+}
+.icons li a{
+    font-size: 25px;
+    color: white;
+    
+}
+.icons li a i{
+     margin-left: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.icons li a i:hover{
+    background-color: blueviolet;
+    color: yellow;
+    transition: .4s;
+}
+.footer_last{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.footer_last h5{
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+/*agriculture sub page css part sart here*/
+
+
+
+#previou{
+    border-bottom: 1px solid black;
+   
+}
+.pagination {
+    margin-bottom: 0px!important;
+        margin-left: -67px!important;
+}
+
+/*just for you css part start here*/
+
+
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 111%!important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+    margin-left: -41px!important;
+}
+
+#just_for{
+    padding: 30px 40px;
+}
+.just_con{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+.just_con h5{
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 25px;
+   
+}
+.card_up{
+  
+  margin: 9px;  
+}
+.card{
+    margin-left: -88px!important;
+}
+.card:hover{
+/*
+        box-shadow: 10px 10px 5px grey;
+    transition: .6s;
+*/
+    
+    
+     transform: scale(1.1);
+    background: #ff800a;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    transition: 0.6s;
+}
+
+/*massage option css part satart here*/
+
+.massage{
+    text-align: right;
+    margin-bottom: -10px;
+    margin-left: -180px;
+    background: transparent;
+    width: 92%;
+}
+.massage h5{
+    padding: 10px 10px;
+    margin-left: -20px;
+    color: #fff;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+}
+.massage a h5 i{
+    margin-right: 15px;
+    font-size: 25px;
+} 
